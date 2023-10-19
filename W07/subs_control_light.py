@@ -9,7 +9,7 @@ import time
 from struct import *
 import random
 
-topic_light = '/malo/home/light'
+topic_light = '/csu2023/light'
 #==================
 #== MQTT Functions
 
@@ -75,7 +75,7 @@ def run_mqtt():
 
 #========================
 # modbus io function
-mbComPort = 'COM2' # for linux: '/dev/ttyUSB0'
+mbComPort = 'COM7' # for linux: '/dev/ttyUSB0'
 baudrate = 9600
 databit = 8
 parity = 'N'
